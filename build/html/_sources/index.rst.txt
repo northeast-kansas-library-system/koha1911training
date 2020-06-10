@@ -12,10 +12,12 @@ Next Search Catalog Koha 19.11 Training
    :maxdepth: 3
 
    opac
-     clubrequests
      guaranteefees
    staffclient
      multipleguarantors
+   clubs
+     createclub
+     clubrequests
 
 
 .. Indices and tables
