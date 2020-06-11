@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. [TODO] Index.rst Link all main pages to this one
+
 =======================================
 Next Search Catalog Koha 19.11 Training
 =======================================

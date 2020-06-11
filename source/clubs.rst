@@ -1,3 +1,6 @@
+.. [TODO] clubs.rst Link all content realted to clubs to this page
+
+.. FIXME: test
 
 -----
 Clubs
