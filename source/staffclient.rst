@@ -1,4 +1,4 @@
-.. [TODO] staffclient.rst Link all staff client content here
+.. .. [TODO] staffclient.rst Link all staff client content here
 
 ------------
 Staff client
