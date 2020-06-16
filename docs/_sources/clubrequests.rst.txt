@@ -1,4 +1,4 @@
-.. [TODO] club requests feature
+.. .. [TODO] club requests feature
 
 Club requests
 =============

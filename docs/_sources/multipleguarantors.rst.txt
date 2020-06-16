@@ -1,4 +1,4 @@
-.. [TODO] multiple guarantors
+.. .. [TODO] multiple guarantors
 
 Add multiple guarantors to a patron
 ===================================

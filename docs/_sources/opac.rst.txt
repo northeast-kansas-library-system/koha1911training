@@ -1,4 +1,4 @@
-.. [TODO] opac.rst Link all OPAC content here
+.. .. [TODO] opac.rst Link all OPAC content here
 
 ------------
 OPAC changes
