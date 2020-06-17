@@ -11,4 +11,6 @@ Clubs
    :maxdepth: 3
 
    createclub
+   clubenroll
    clubrequests
+   clubreports
