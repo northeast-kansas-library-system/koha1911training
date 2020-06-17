@@ -1,5 +1,5 @@
 Creating a club
-===============
+================
 
 1. From the home page in Next, click on "Tools"
 

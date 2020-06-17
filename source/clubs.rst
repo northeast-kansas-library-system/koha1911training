@@ -12,5 +12,7 @@ Clubs
 
    createclub
    clubenroll
-   clubrequests
+   clubquit
    clubreports
+   clubrequests
+   clubfaq
