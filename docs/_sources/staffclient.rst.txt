@@ -7,4 +7,6 @@ Staff client
 .. toctree::
    :maxdepth: 3
 
+   claimsreturned
    multipleguarantors
+   holdchanges

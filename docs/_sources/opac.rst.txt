@@ -8,3 +8,4 @@ OPAC changes
    :maxdepth: 3
 
    guaranteefees
+   opacother
