@@ -23,6 +23,7 @@ Next Search Catalog Koha 19.11 Training
      holdchanges
    opac
      guaranteefees
+     opacother
 
 
 
