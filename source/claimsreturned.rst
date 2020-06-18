@@ -26,3 +26,7 @@ Click on "resolve" and fill in the form
 A running total of the number of times a patron has claimed to return an item will be kept on their account
 
 Staff get a warning when the number of claims returned is greater than 10
+
+.. Question - can a CR item be marked as lost -
+
+.. Question - pay fines for guarantees on staff too.
