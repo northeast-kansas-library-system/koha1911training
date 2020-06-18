@@ -11,7 +11,7 @@ Next Search Catalog Koha 19.11 Training
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
 
    clubs
