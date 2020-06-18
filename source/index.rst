@@ -14,14 +14,16 @@ Next Search Catalog Koha 19.11 Training
    :maxdepth: 3
 
 
-   staffclient
-     holdchanges
-     multipleguarantors
-   opac
-     guaranteefees
    clubs
      createclub
      clubrequests
+   staffclient
+     claimsreturned
+     multipleguarantors
+     holdchanges
+   opac
+     guaranteefees
+
 
 
 .. Indices and tables

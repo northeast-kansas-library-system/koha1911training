@@ -54,13 +54,23 @@ Item being returned
 
 .. Check in STAN AND OLLIE at ATCHISON 0003008201338 - show pop-up
 
+.. image:: /images/holdchanges.1110.png
+
 Item with a request at another library
 
 .. Check in WIDOWS at ATCHISON 0003008201835 - Show pop-up
 
+.. image:: /images/holdchanges.1120.png
+
 Item with a request at this library
 
 .. Switch to NEKLS and check in WIDOWS 0003008201835
+
+.. image:: /images/holdchanges.1130.png
+
+After you clear the pop-up, it's gone forever
+
+.. image:: /images/holdchanges.1140.png
 
 AFTER:
 
@@ -68,10 +78,48 @@ Item being returned
 
 .. Check in STAN AND OLLIE at ATCHISON 0003008201338 - show pop-up
 
+.. image:: /images/holdchanges.1210.png
+
 Item with a request at another library
 
 .. Check in WIDOWS at ATCHISON 0003008201835 - Show pop-up
 
+.. image:: /images/holdchanges.1220.png
+
 Item with a request at this library
 
 .. Switch to NEKLS and check in WIDOWS 0003008201835
+
+.. image:: /images/holdchanges.1230.png
+
+Click on the "I" icon to get the pop-up back
+
+.. need a Screenshot
+
+.. image:: /images/holdchanges.1240.png
+
+
+Requests table has new styling
+------------------------------
+
+BEFORE:
+
+Too many holds
+
+.. place request on -0003000050540- for FROSTX026
+
+AFTER:
+
+Not available
+
+
+Holds awaiting pickup now sorts by last name
+--------------------------------------------
+
+This has already been fixed on our live system, so no before and after pictures
+
+
+Staff can now edit purchase suggestions
+---------------------------------------
+
+Again, this has already been added to our system
