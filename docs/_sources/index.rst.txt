@@ -21,6 +21,7 @@ Next Search Catalog Koha 19.11 Training
      claimsreturned
      multipleguarantors
      holdchanges
+     other
    opac
      guaranteefees
      opacother
