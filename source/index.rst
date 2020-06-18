@@ -13,10 +13,12 @@ Next Search Catalog Koha 19.11 Training
 .. toctree::
    :maxdepth: 3
 
+
+   staffclient
+     holdchanges
+     multipleguarantors
    opac
      guaranteefees
-   staffclient
-     multipleguarantors
    clubs
      createclub
      clubrequests
