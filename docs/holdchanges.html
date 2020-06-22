@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="OPAC changes" href="opac.html" />
+    <link rel="next" title="Other changes" href="other.html" />
     <link rel="prev" title="Add multiple guarantors to a patron" href="multipleguarantors.html" /> 
 </head>
 
@@ -91,12 +91,19 @@
 <li class="toctree-l2"><a class="reference internal" href="multipleguarantors.html">Add multiple guarantors to a patron</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Changes to requests</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#title-vs-item-level-request">Title vs item level request</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#changes-in-hold-pop-up">Changes in hold pop-up</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#requests-table-has-new-styling">Requests table has new styling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changes-in-check-in-pop-ups">Changes in check-in pop-ups</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#item-being-returned">Item being returned</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#item-with-a-request-at-another-library">Item with a request at another library</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#item-with-a-request-at-this-library">Item with a request at this library</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ignoring-any-pop-up">Ignoring any pop-up</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#too-many-holds-vs-not-holdable">Too many holds vs Not holdable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#holds-awaiting-pickup-now-sorts-by-last-name">Holds awaiting pickup now sorts by last name</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#staff-can-now-edit-purchase-suggestions">Staff can now edit purchase suggestions</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="other.html">Other changes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="opac.html">OPAC changes</a></li>
@@ -172,51 +179,119 @@
 <h2>Title vs item level request<a class="headerlink" href="#title-vs-item-level-request" title="Permalink to this headline">¶</a></h2>
 <p>A long standing bug has been fixed.</p>
 <p>BEFORE:</p>
-<p>Staff places title level request</p>
-<p>Item is “captured” to fill request and that specific item is tied to that request</p>
-<p>The specific item is checked out to another patron before the request can be filled</p>
-<p>Request can now <strong>only</strong> be filled by that specific Item</p>
-<p>AFTER:</p>
-<p>Staff places title level request</p>
-<p>Item is “captured” to fill request and that specific item is tied to that request</p>
-<p>The specific item is checked out to another patron before the request can be filled</p>
-<p>Request can now <strong>only</strong> be filled by that specific Item</p>
-</div>
-<div class="section" id="changes-in-hold-pop-up">
-<h2>Changes in hold pop-up<a class="headerlink" href="#changes-in-hold-pop-up" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Staff places title level request (note “Next available” in the “Details” column)</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1010.png" src="_images/holdchanges.1010.png" />
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>When an item is “captured” to fill request, that specific item is tied to that specific request</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1020.png" src="_images/holdchanges.1020.png" />
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>The specific item is checked out to another patron before the request can be fille</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1031.png" src="_images/holdchanges.1031.png" />
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Or the requested item is “Reverted” from “Waiting” to unfilled</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1032.png" src="_images/holdchanges.1032.png" />
+</div></blockquote>
 <p>BEFORE:</p>
-<p>Item being returned</p>
-<img alt="_images/holdchanges.1110.png" src="_images/holdchanges.1110.png" />
-<p>Item with a request at another library</p>
-<img alt="_images/holdchanges.1120.png" src="_images/holdchanges.1120.png" />
-<p>Item with a request at this library</p>
-<img alt="_images/holdchanges.1130.png" src="_images/holdchanges.1130.png" />
-<p>After you clear the pop-up, it’s gone forever</p>
-<img alt="_images/holdchanges.1140.png" src="_images/holdchanges.1140.png" />
+<ol class="arabic simple" start="4">
+<li><p>Request can now <strong>only</strong> be filled by that specific Item</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1041.png" src="_images/holdchanges.1041.png" />
+</div></blockquote>
 <p>AFTER:</p>
-<p>Item being returned</p>
-<img alt="_images/holdchanges.1210.png" src="_images/holdchanges.1210.png" />
-<p>Item with a request at another library</p>
-<img alt="_images/holdchanges.1220.png" src="_images/holdchanges.1220.png" />
-<p>Item with a request at this library</p>
-<img alt="_images/holdchanges.1230.png" src="_images/holdchanges.1230.png" />
-<p>Click on the “I” icon to get the pop-up back</p>
-<img alt="_images/holdchanges.1240.png" src="_images/holdchanges.1240.png" />
+<ol class="arabic simple" start="4">
+<li><p>Request reverts to a “Next available” request</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/holdchanges.1042.png" src="_images/holdchanges.1042.png" />
+</div></blockquote>
 </div>
-<div class="section" id="requests-table-has-new-styling">
-<h2>Requests table has new styling<a class="headerlink" href="#requests-table-has-new-styling" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<div class="section" id="changes-in-check-in-pop-ups">
+<h2>Changes in check-in pop-ups<a class="headerlink" href="#changes-in-check-in-pop-ups" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="item-being-returned">
+<h3>Item being returned<a class="headerlink" href="#item-being-returned" title="Permalink to this headline">¶</a></h3>
+<p>BEFORE: Only the transfer information appeared in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1110.png" src="_images/holdchanges.1110.png" />
+</div></blockquote>
+<p>AFTER: The transfer information plus any check-in messages appear in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1210.png" src="_images/holdchanges.1210.png" />
+</div></blockquote>
+</div>
+<div class="section" id="item-with-a-request-at-another-library">
+<h3>Item with a request at another library<a class="headerlink" href="#item-with-a-request-at-another-library" title="Permalink to this headline">¶</a></h3>
+<p>BEFORE:  Only the “Hold found” informaiton appeared in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1120.png" src="_images/holdchanges.1120.png" />
+</div></blockquote>
+<p>AFTER:  The “Hold found” information plus any check-in messages appear in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1220.png" src="_images/holdchanges.1220.png" />
+</div></blockquote>
+</div>
+<div class="section" id="item-with-a-request-at-this-library">
+<h3>Item with a request at this library<a class="headerlink" href="#item-with-a-request-at-this-library" title="Permalink to this headline">¶</a></h3>
+<p>BEFORE:  Only the “Hold found” informaiton appeared in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1130.png" src="_images/holdchanges.1130.png" />
+</div></blockquote>
+<p>AFTER:   The “Hold found” information plus any check-in messages appear in the pop-up</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1230.png" src="_images/holdchanges.1230.png" />
+</div></blockquote>
+</div>
+<div class="section" id="ignoring-any-pop-up">
+<h3>Ignoring any pop-up<a class="headerlink" href="#ignoring-any-pop-up" title="Permalink to this headline">¶</a></h3>
+<p>BEFORE:  After you clear the pop-up, it’s gone forever</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1140.png" src="_images/holdchanges.1140.png" />
+</div></blockquote>
+<p>AFTER:  Click on the “I” icon to get the pop-up back</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1240.png" src="_images/holdchanges.1240.png" />
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="too-many-holds-vs-not-holdable">
+<h2>Too many holds vs Not holdable<a class="headerlink" href="#too-many-holds-vs-not-holdable" title="Permalink to this headline">¶</a></h2>
 <p>BEFORE:</p>
-<p>Too many holds</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1310.png" src="_images/holdchanges.1310.png" />
+</div></blockquote>
 <p>AFTER:</p>
-<p>Not available</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1320.png" src="_images/holdchanges.1320.png" />
+</div></blockquote>
 </div>
+<hr class="docutils" />
 <div class="section" id="holds-awaiting-pickup-now-sorts-by-last-name">
 <h2>Holds awaiting pickup now sorts by last name<a class="headerlink" href="#holds-awaiting-pickup-now-sorts-by-last-name" title="Permalink to this headline">¶</a></h2>
-<p>This has already been fixed on our live system, so no before and after pictures</p>
+<p>This has already been fixed on our live system, so no before picture is now possible</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1330.png" src="_images/holdchanges.1330.png" />
+</div></blockquote>
 </div>
 <div class="section" id="staff-can-now-edit-purchase-suggestions">
 <h2>Staff can now edit purchase suggestions<a class="headerlink" href="#staff-can-now-edit-purchase-suggestions" title="Permalink to this headline">¶</a></h2>
-<p>Again, this has already been added to our system</p>
+<p>This has already been fixed on our live system, so no before picture is now possible</p>
+<blockquote>
+<div><img alt="_images/holdchanges.1340.png" src="_images/holdchanges.1340.png" />
+</div></blockquote>
 </div>
 </div>
 
@@ -228,7 +303,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="opac.html" class="btn btn-neutral float-right" title="OPAC changes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="other.html" class="btn btn-neutral float-right" title="Other changes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="multipleguarantors.html" class="btn btn-neutral float-left" title="Add multiple guarantors to a patron" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

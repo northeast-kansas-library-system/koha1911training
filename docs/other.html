@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="OPAC changes" href="opac.html" />
+    <link rel="prev" title="Changes to requests" href="holdchanges.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,9 +84,32 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="clubs.html">Clubs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="staffclient.html">Staff client</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="staffclient.html">Staff client</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="claimsreturned.html">Claims returned</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multipleguarantors.html">Add multiple guarantors to a patron</a></li>
+<li class="toctree-l2"><a class="reference internal" href="holdchanges.html">Changes to requests</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Other changes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#circulation">Circulation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#check-in">Check-in</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#searching">Searching</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#subtitle-on-checkins">Subtitle on checkins</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#limit-to-available-items-works-better">Limit to available items works better</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#patrons">Patrons</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#do-not-notify-boxes-gone">Do not notify boxes gone</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#patron-category-age-warning">Patron category/age warning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#attempting-to-delete-a-patron-with-reqeusts-causes-a-warning-message">Attempting to delete a patron with reqeusts causes a warning message</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="opac.html">OPAC changes</a></li>
 </ul>
 
@@ -131,6 +156,8 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
+          <li><a href="staffclient.html">Staff client</a> &raquo;</li>
+        
       <li>Other changes</li>
     
     
@@ -157,29 +184,74 @@
 <div class="section" id="check-in">
 <h3>Check-in<a class="headerlink" href="#check-in" title="Permalink to this headline">¶</a></h3>
 <p>Checkin settings have moved</p>
+<p>BEFORE:</p>
+<blockquote>
+<div><img alt="_images/other.0010.png" src="_images/other.0010.png" />
+</div></blockquote>
+<p>AFTER:</p>
+<blockquote>
+<div><img alt="_images/other.0020.png" src="_images/other.0020.png" />
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><img alt="_images/other.0021.png" src="_images/other.0021.png" />
+</div></blockquote>
 </div>
 </div>
+<hr class="docutils" />
 <div class="section" id="searching">
 <h2>Searching<a class="headerlink" href="#searching" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="subtitle-on-checkins">
 <h3>Subtitle on checkins<a class="headerlink" href="#subtitle-on-checkins" title="Permalink to this headline">¶</a></h3>
-<p>Can’t show till after the upgrade</p>
+<p>Can’t show till after the upgrade because it will require running a process on the server after the upgrade</p>
+<blockquote>
+<div><img alt="_images/other.0030.png" src="_images/other.0030.png" />
+</div></blockquote>
 </div>
 <div class="section" id="limit-to-available-items-works-better">
 <h3>Limit to available items works better<a class="headerlink" href="#limit-to-available-items-works-better" title="Permalink to this headline">¶</a></h3>
+<p>There has been a bug affecting the “Limit to currently available items” search facet.  It is supposed to limit search results to show items where at least one copy is available for checkout.  Because of the bug, for some time “Limit to currently available items” has only been showing titles where 100% of the copies are available.</p>
 <p>Can’t show because the patch was back-ported to our existing system last week</p>
+<blockquote>
+<div><img alt="_images/other.0040.png" src="_images/other.0040.png" />
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><img alt="_images/other.0041.png" src="_images/other.0041.png" />
+</div></blockquote>
 </div>
 </div>
 <div class="section" id="patrons">
 <h2>Patrons<a class="headerlink" href="#patrons" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="do-not-notify-boxes-gone">
 <h3>Do not notify boxes gone<a class="headerlink" href="#do-not-notify-boxes-gone" title="Permalink to this headline">¶</a></h3>
+<p>All these checkboxes did was to un-check other boxes, so they have been removed from the table.</p>
+<p>BEFORE:</p>
+<blockquote>
+<div><img alt="_images/other.0050.png" src="_images/other.0050.png" />
+</div></blockquote>
+<p>AFTER:</p>
+<blockquote>
+<div><img alt="_images/other.0051.png" src="_images/other.0051.png" />
+</div></blockquote>
 </div>
 <div class="section" id="patron-category-age-warning">
 <h3>Patron category/age warning<a class="headerlink" href="#patron-category-age-warning" title="Permalink to this headline">¶</a></h3>
+<p>Most patron categories have age limitations.  There are some circumstances where a patrons’ age may not match their patron category.  If the age and the patron category don’t match, there will now be a warning to let staff know of the problem.</p>
+<blockquote>
+<div><img alt="_images/other.0060.png" src="_images/other.0060.png" />
+</div></blockquote>
 </div>
 <div class="section" id="attempting-to-delete-a-patron-with-reqeusts-causes-a-warning-message">
 <h3>Attempting to delete a patron with reqeusts causes a warning message<a class="headerlink" href="#attempting-to-delete-a-patron-with-reqeusts-causes-a-warning-message" title="Permalink to this headline">¶</a></h3>
+<p>It has been possible in the past to delete a patron that had unfilled requests.  Staff will now see a warning when they attempt to do this.</p>
+<blockquote>
+<div><img alt="_images/other.0070.png" src="_images/other.0070.png" />
+</div></blockquote>
 </div>
 </div>
 </div>
@@ -189,6 +261,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="opac.html" class="btn btn-neutral float-right" title="OPAC changes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="holdchanges.html" class="btn btn-neutral float-left" title="Changes to requests" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

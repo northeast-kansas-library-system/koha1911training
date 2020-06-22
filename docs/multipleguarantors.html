@@ -88,8 +88,13 @@
 <li class="toctree-l1"><a class="reference internal" href="clubs.html">Clubs</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="staffclient.html">Staff client</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="claimsreturned.html">Claims returned</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Add multiple guarantors to a patron</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Add multiple guarantors to a patron</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#to-add-multiple-guarantors-to-an-account">To add multiple guarantors to an account:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bugs-and-problms">Bugs and problms:</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="holdchanges.html">Changes to requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html">Other changes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="opac.html">OPAC changes</a></li>
@@ -161,6 +166,108 @@
             
   <div class="section" id="add-multiple-guarantors-to-a-patron">
 <h1>Add multiple guarantors to a patron<a class="headerlink" href="#add-multiple-guarantors-to-a-patron" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="to-add-multiple-guarantors-to-an-account">
+<h2>To add multiple guarantors to an account:<a class="headerlink" href="#to-add-multiple-guarantors-to-an-account" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Search for an existing child patron that already has a guarantor</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0010.png" src="_images/multipleguarantors.0010.png" />
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Click on “Edit”</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0020.png" src="_images/multipleguarantors.0020.png" />
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>In the guarantors section, click on “Search to add”</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0030.png" src="_images/multipleguarantors.0030.png" />
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Search for the name of the patron in the search box</p></li>
+</ol>
+<blockquote>
+<div><p>(note that the patron category must be chosen and that “Adult” is the default)</p>
+<p>(this is a work-around to a bug that allows children to be the guarantors for other children - it is even possible because of this bug for a patron to be their own guarantor)</p>
+<img alt="_images/multipleguarantors.0040.png" src="_images/multipleguarantors.0040.png" />
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>When you find the patron you wish to be the guarantor, click on “Select”</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0050.png" src="_images/multipleguarantors.0050.png" />
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>You will now see two guarantors for this Patron</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0060.png" src="_images/multipleguarantors.0060.png" />
+</div></blockquote>
+<ol class="arabic simple" start="7">
+<li><p>Click on “Save”</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0070.png" src="_images/multipleguarantors.0070.png" />
+</div></blockquote>
+<ol class="arabic simple" start="8">
+<li><p>On the patron’s “Details” tab, you will now see two multipleguarantors</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0080.png" src="_images/multipleguarantors.0080.png" />
+</div></blockquote>
+<ol class="arabic simple" start="9">
+<li><p>All fees for this patron will count towards the $10.00 fee limit for <em>all</em> guarantors for this patron</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0091.png" src="_images/multipleguarantors.0091.png" />
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0092.png" src="_images/multipleguarantors.0092.png" />
+</div></blockquote>
+<ol class="arabic simple" start="10">
+<li><p>If you select “Yes” for “Show checkouts to guarantors” all guarantors for this patron will see this patron’s current check-outs in the OPAC</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0100.png" src="_images/multipleguarantors.0100.png" />
+</div></blockquote>
+<ol class="arabic simple" start="11">
+<li><p>If you select “Yes” for “Show fines to guarantors” all guarantors for this patron will see this patron’s current fines in the OPAC</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.0110.png" src="_images/multipleguarantors.0110.png" />
+</div></blockquote>
+</div>
+<hr class="docutils" />
+<div class="section" id="bugs-and-problms">
+<h2>Bugs and problms:<a class="headerlink" href="#bugs-and-problms" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha simple">
+<li><p>The “Add child” button has been renamed “Add guarantee” and is currently broken.  If you go to an adult’s account and click on “Add guarantee,” the adult will not be added as the guarantor for the child you’re creating.  You still must search for the guarantor.  We expect this bug to be fixed soon.</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.010a.png" src="_images/multipleguarantors.010a.png" />
+</div></blockquote>
+<ol class="upperalpha simple" start="2">
+<li><p>As noted above, due to a bug, you <em>must</em> select a patron category when searching for a guarantor and the default search will be for “Adult” patrons.  If the patron you’re searching for is not in the “Adult” category, you must select the category the patron you’re searching for is a part of.  We expect this bug to be fixed soon.</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.010b.png" src="_images/multipleguarantors.010b.png" />
+</div></blockquote>
+<ol class="upperalpha simple" start="3">
+<li><p>You can no longer add a non-cardholder as a guarantor.  This is also something we expect to resolve soon.</p></li>
+</ol>
+<blockquote>
+<div><img alt="_images/multipleguarantors.010c.png" src="_images/multipleguarantors.010c.png" />
+</div></blockquote>
+<ol class="upperalpha simple" start="4">
+<li><p>The ability to add multiple guarantors to a patron account involved major changes to the database.  Because of this, all of the reports regarding guarantors will be broken after the upgrade and will need to be rewritten.</p></li>
+</ol>
+</div>
 </div>
 
 
