@@ -5,16 +5,34 @@ Other OPAC changes
 Floating toolbar
 ----------------
 
-.. demo on https://nextkansas.org/cgi-bin/koha/opac-search.pl?q=day+of+the+jackal&branch_group_limit=
-.. demo on http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-search.pl?q=day+of+the+jackal&branch_group_limit=
+The control bar for the OPAC search results now floats
+
+BEFORE:
+
+  .. image:: /images/opacother.0010.png
+
+AFTER:
+
+  .. image:: /images/opacother.0020.png
+
 
 Locate on device
 ----------------
 
-.. demo on http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber=130375
+On a title's details page in the OPAC, you can click on a new button called "Send to device" that will generate a QR code for the title's page in the OPAC.  You can then scan the code with your phone and the record will open on your phone's browser.
+
+  .. image:: /images/opacother.0030.png
+
+|
+
+  .. image:: /images/opacother.0040.png
 
 Editions problem fixed
 ----------------------
+
+The OPAC uses the ISBN numbers for an item and a FRBRization service to add links to different editions of the same work to the "Editions" tab in the OPAC.  In the past, if a title had multiple ISBNs on the same title, the editions were grouped by ISBN, causing an title to show up on its own "Editions" tab.  The titles are now configured to group on biblionumber, so fewer titles should appear on the "Editions" tab and none of them should refer back to the title you are currently looking at.
+
+  .. image:: /images/opacother.0040.png
 
 .. Demonstrate on http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=25443
 .. Demonstrate on http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber=25443
