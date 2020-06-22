@@ -32,7 +32,7 @@ Editions problem fixed
 
 The OPAC uses the ISBN numbers for an item and a FRBRization service to add links to different editions of the same work to the "Editions" tab in the OPAC.  In the past, if a title had multiple ISBNs on the same title, the editions were grouped by ISBN, causing an title to show up on its own "Editions" tab.  The titles are now configured to group on biblionumber, so fewer titles should appear on the "Editions" tab and none of them should refer back to the title you are currently looking at.
 
-  .. image:: /images/opacother.0040.png
+  .. image:: /images/opacother.0050.png
 
 .. Demonstrate on http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=25443
 .. Demonstrate on http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber=25443
