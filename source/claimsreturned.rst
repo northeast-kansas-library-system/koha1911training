@@ -1,6 +1,22 @@
 Claims returned
 ===============
 
+"Claims returned" is one of the three standard terms to describe the lost status of an item.  The three standard terms are:
+
+* Missing
+* Lost
+* Claims returned
+
+"**Missing**" means that an item is supposed to be on the shelf, but staff cannot find the item.
+
+"**Lost**" means that a patron checked out an item and never returned it.
+
+"**Claims returned**" means that the patron checked out the item and they claim that they have returned it, but the item was never checked in and staff cannot find it on the shelf where it is supposed to be.
+
+Many integrated library systems have a system in place that allow staff to mark an item as "Claims returned" which keeps the item checked out to the patron at the same time it acknowledges that the patron claims to have returned the item but that the item cannot be found in the library.  The Koha community has been working on developing this feature and this is its first iteration.
+
+To use the new "Claims returned" feature:
+
 1. Patron checks out an item and then says they've returned it
 
   .. image:: /images/claimsreturned.0010.png
@@ -93,11 +109,15 @@ Claims returned
 
   .. image:: /images/claimsreturned.0160.png
 
+-----
+
 This is a brand new feature in Koha and it is still in development.  Future developments that have been suggested include:
 
-* Add the ability to charge the patron the replacement cost of the item during the resolution phase of the process
+A. Add the ability to charge the patron the replacement cost of the item during the resolution phase of the process
 
+B. Add more choices to the resolution drop-down
 
+C. Add the ability to turn off the feature for some staff accounts (i.e. NEKLSCIRC can't use the feature but NEKLSTECH and NEKLSDIRECTOR can)
 
 
 .. Question - can a CR item be marked as lost -
