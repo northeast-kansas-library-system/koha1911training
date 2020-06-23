@@ -17,13 +17,20 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="_static/override.css" type="text/css" />
@@ -31,21 +38,16 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Add multiple guarantors to a patron" href="multipleguarantors.html" />
     <link rel="prev" title="Staff client" href="staffclient.html" /> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -85,7 +87,10 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="clubs.html">Clubs</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="staffclient.html">Staff client</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Claims returned</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Claims returned</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#video-on-this-topic">Video on this topic:</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="multipleguarantors.html">Add multiple guarantors to a patron</a></li>
 <li class="toctree-l2"><a class="reference internal" href="holdchanges.html">Changes to requests</a></li>
 <li class="toctree-l2"><a class="reference internal" href="other.html">Other changes</a></li>
@@ -162,9 +167,9 @@
 <h1>Claims returned<a class="headerlink" href="#claims-returned" title="Permalink to this headline">¶</a></h1>
 <p>“Claims returned” is one of the three standard terms to describe the lost status of an item.  The three standard terms are:</p>
 <ul class="simple">
-<li>Missing</li>
-<li>Lost</li>
-<li>Claims returned</li>
+<li><p>Missing</p></li>
+<li><p>Lost</p></li>
+<li><p>Claims returned</p></li>
 </ul>
 <p>“<strong>Missing</strong>” means that an item is supposed to be on the shelf, but staff cannot find the item.</p>
 <p>“<strong>Lost</strong>” means that a patron checked out an item and never returned it.</p>
@@ -172,19 +177,19 @@
 <p>Many integrated library systems have a system in place that allow staff to mark an item as “Claims returned” which keeps the item checked out to the patron at the same time it acknowledges that the patron claims to have returned the item but that the item cannot be found in the library.  The Koha community has been working on developing this feature and this is its first iteration.</p>
 <p>To use the new “Claims returned” feature:</p>
 <ol class="arabic simple">
-<li>Patron checks out an item and then says they’ve returned it</li>
+<li><p>Patron checks out an item and then says they’ve returned it</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0010.png" src="_images/claimsreturned.0010.png" />
 </div></blockquote>
 <ol class="arabic simple" start="2">
-<li>From the check-out or details page, new column called “Return claims”</li>
+<li><p>From the check-out or details page, new column called “Return claims”</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0020.png" src="_images/claimsreturned.0020.png" />
 </div></blockquote>
 <ol class="arabic" start="3">
-<li><p class="first">Click on “Claim returned” button to start the process</p>
+<li><p>Click on “Claim returned” button to start the process</p>
 <p>(in this example I’m going to mark STAN &amp; OLLIE as Claims Returned)</p>
 </li>
 </ol>
@@ -192,13 +197,13 @@
 <div><img alt="_images/claimsreturned.0030.png" src="_images/claimsreturned.0030.png" />
 </div></blockquote>
 <ol class="arabic simple" start="4">
-<li>When you click on the “Claim Returned” button, a pop-up will open and you should put an explanation for the claim in the notes field</li>
+<li><p>When you click on the “Claim Returned” button, a pop-up will open and you should put an explanation for the claim in the notes field</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0040.png" src="_images/claimsreturned.0040.png" />
 </div></blockquote>
 <ol class="arabic simple" start="5">
-<li>If you check the “Charge lost fee” box the patron will be billed for the replacement cost of the item - if you leave it unchecked, the patron will not be charged.</li>
+<li><p>If you check the “Charge lost fee” box the patron will be billed for the replacement cost of the item - if you leave it unchecked, the patron will not be charged.</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0051.png" src="_images/claimsreturned.0051.png" />
@@ -210,38 +215,38 @@
 <div><img alt="_images/claimsreturned.0052.png" src="_images/claimsreturned.0052.png" />
 </div></blockquote>
 <ol class="arabic simple" start="6">
-<li>Once the form has been filled out, click on “Make claim” to submit the form</li>
+<li><p>Once the form has been filled out, click on “Make claim” to submit the form</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0060.png" src="_images/claimsreturned.0060.png" />
 </div></blockquote>
 <ol class="arabic simple" start="7">
-<li>This is a brand new feature and it’s buggy - in order for the process to complete, you need to click on the “Checkout” tab to reload the page</li>
+<li><p>This is a brand new feature and it’s buggy - in order for the process to complete, you need to click on the “Checkout” tab to reload the page</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0070.png" src="_images/claimsreturned.0070.png" />
 </div></blockquote>
 <ol class="arabic simple" start="8">
-<li>Once you reload, the claims returned date will appear in the “Return claims” column for that item</li>
+<li><p>Once you reload, the claims returned date will appear in the “Return claims” column for that item</p></li>
 </ol>
 <blockquote>
 <div><p>(The item will remain on the patron’s account until checked in)</p>
 <img alt="_images/claimsreturned.0080.png" src="_images/claimsreturned.0080.png" />
 </div></blockquote>
 <ol class="arabic simple" start="9">
-<li>You can see more details if you click on the “Claim(s)” tab</li>
+<li><p>You can see more details if you click on the “Claim(s)” tab</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0090.png" src="_images/claimsreturned.0090.png" />
 </div></blockquote>
 <ol class="arabic simple" start="10">
-<li>Staff can edit or resolve the claims returned from the action button on the “Claim(s)” tab</li>
+<li><p>Staff can edit or resolve the claims returned from the action button on the “Claim(s)” tab</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0100.png" src="_images/claimsreturned.0100.png" />
 </div></blockquote>
 <ol class="arabic simple" start="11">
-<li>Click on “Edit notes” from the “Action” button to make changes or updates to the notes</li>
+<li><p>Click on “Edit notes” from the “Action” button to make changes or updates to the notes</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0111.png" src="_images/claimsreturned.0111.png" />
@@ -259,7 +264,7 @@
 <div><img alt="_images/claimsreturned.0113.png" src="_images/claimsreturned.0113.png" />
 </div></blockquote>
 <ol class="arabic simple" start="12">
-<li>Click on “Resolve” from the “Action” button to mark the claims returned as resolved</li>
+<li><p>Click on “Resolve” from the “Action” button to mark the claims returned as resolved</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0121.png" src="_images/claimsreturned.0121.png" />
@@ -283,25 +288,25 @@
 <div><img alt="_images/claimsreturned.0124.png" src="_images/claimsreturned.0124.png" />
 </div></blockquote>
 <ol class="arabic simple" start="13">
-<li>A running total of the number of times a patron has claimed to return an item will be kept on their account</li>
+<li><p>A running total of the number of times a patron has claimed to return an item will be kept on their account</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0130.png" src="_images/claimsreturned.0130.png" />
 </div></blockquote>
 <ol class="arabic simple" start="14">
-<li>Staff get a warning when the number of claims returned is greater than 10</li>
+<li><p>Staff get a warning when the number of claims returned is greater than 10</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0140.png" src="_images/claimsreturned.0140.png" />
 </div></blockquote>
 <ol class="arabic simple" start="15">
-<li>If an item is checked in before a claims returned is resolved, staff will get a warning message that a patron claimed to have returned the item</li>
+<li><p>If an item is checked in before a claims returned is resolved, staff will get a warning message that a patron claimed to have returned the item</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0150.png" src="_images/claimsreturned.0150.png" />
 </div></blockquote>
 <ol class="arabic simple" start="16">
-<li>Staff can delete claims returned history from the patron’s account after a claim has been resolved</li>
+<li><p>Staff can delete claims returned history from the patron’s account after a claim has been resolved</p></li>
 </ol>
 <blockquote>
 <div><img alt="_images/claimsreturned.0160.png" src="_images/claimsreturned.0160.png" />
@@ -309,10 +314,18 @@
 <hr class="docutils" />
 <p>This is a brand new feature in Koha and it is still in development.  Future developments that have been suggested include:</p>
 <ol class="upperalpha simple">
-<li>Add the ability to charge the patron the replacement cost of the item during the resolution phase of the process</li>
-<li>Add more choices to the resolution drop-down</li>
-<li>Add the ability to turn off the feature for some staff accounts (i.e. NEKLSCIRC can’t use the feature but NEKLSTECH and NEKLSDIRECTOR can)</li>
+<li><p>Add the ability to charge the patron the replacement cost of the item during the resolution phase of the process</p></li>
+<li><p>Add more choices to the resolution drop-down</p></li>
+<li><p>Add the ability to turn off the feature for some staff accounts (i.e. NEKLSCIRC can’t use the feature but NEKLSTECH and NEKLSDIRECTOR can)</p></li>
 </ol>
+<hr class="docutils" />
+<div class="section" id="video-on-this-topic">
+<h2>Video on this topic:<a class="headerlink" href="#video-on-this-topic" title="Permalink to this headline">¶</a></h2>
+<p>Watch a YouTube video about patron changes.</p>
+<div style="position:relative;padding-top:50%;">
+  <iframe src="https://www.youtube.com/embed/EipKb5ZGu-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div><hr class="docutils" />
+</div>
 </div>
 
 
@@ -326,7 +339,7 @@
         <a href="multipleguarantors.html" class="btn btn-neutral float-right" title="Add multiple guarantors to a patron" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="staffclient.html" class="btn btn-neutral" title="Staff client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="staffclient.html" class="btn btn-neutral float-left" title="Staff client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -352,35 +365,16 @@
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-    
-
-  
-
-  <script type="text/javascript" src="_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

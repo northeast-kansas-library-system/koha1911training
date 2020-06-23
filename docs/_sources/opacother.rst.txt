@@ -34,5 +34,25 @@ The OPAC uses the ISBN numbers for an item and a FRBRization service to add link
 
   .. image:: /images/opacother.0050.png
 
-.. Demonstrate on http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=25443
-.. Demonstrate on http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber=25443
+
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/-wb-EiB5ipk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/-wb-EiB5ipk
+
+-----
