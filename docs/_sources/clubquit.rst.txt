@@ -52,3 +52,24 @@ Patrons can remove themselves from any OPAC enrollment club
 6. A patron will not be able to leave a club that is managed solely by library staff
 
   .. image:: /images/clubquit.160.png
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://youtu.be/p7ktyEWAGu4" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/p7ktyEWAGu4
+
+-----

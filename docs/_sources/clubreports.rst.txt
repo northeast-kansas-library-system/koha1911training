@@ -60,3 +60,24 @@ Notes
 -----
 
 Work is being done to add to these reports.  Reports for self-dis-enrollment are in progress, and reports for club demographic informaiton (age and sex of club members, etc.)
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://youtu.be/hw9ZogM1XXU" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/hw9ZogM1XXU
+
+-----

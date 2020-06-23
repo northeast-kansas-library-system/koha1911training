@@ -72,3 +72,24 @@ Initiating a club request from the patron clubs tool
 6. The requests will be placed on the title in random order
 
   .. image:: /images/clubrequests.170.png
+
+  -----
+
+  Video on this topic:
+  --------------------
+
+  Watch a YouTube video about patron changes.
+
+  .. only:: html
+
+    .. raw:: html
+
+        <div style="position:relative;padding-top:50%;">
+          <iframe src="https://youtu.be/OezQwxAUYzU" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+        </div>
+
+  .. only:: latex
+
+     https://youtu.be/OezQwxAUYzU
+
+  -----
