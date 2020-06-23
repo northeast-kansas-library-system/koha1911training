@@ -3,14 +3,6 @@
 Ability to see and pay guarantee fees in the OPAC
 =================================================
 
-
-.. after creating Lisa Frosty add a $9.00 late fees
-.. Make her fees visible to Otto and pat
-.. Go to the OPAC and log into Otto's account
-.. Show how fees are visible
-.. Explain current paypal bugs
-.. Promise to get paypal taken care of
-
 If a patron acts as the guarantor to one or more child patrons and those child patrons owe greater than $10.00 in late fees, the adult patron will be blocked at circulation.  If the guarantees have the "Show checkouts to guarantors" flag set to "Yes" on their account, the adult guarantor will be able to see items checked out to that guarantee in the OPAC, but they will not see the guarantee's fees.
 
 A new setting has been added called "Show fines to guarantors" that will let guarantees agree to allow their adult guarantors to also see their late fees in the OPAC.
@@ -94,5 +86,25 @@ A: "Show fines to guarantors" will not be enabled for any pre-existing patrons. 
 Q: Why is the patron allowed to change their own "Show fines to guarantors" setting in the OPAC.
 
 A: This is one of the standard privacy settings in Koha that gives patrons control over their own data and how its used.
+
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/zUpbKO3fL1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/zUpbKO3fL1Q
 
 -----
