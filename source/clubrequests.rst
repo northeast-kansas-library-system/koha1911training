@@ -73,23 +73,23 @@ Initiating a club request from the patron clubs tool
 
   .. image:: /images/clubrequests.170.png
 
-  -----
+-----
 
-  Video on this topic:
-  --------------------
+Video on this topic:
+--------------------
 
-  Watch a YouTube video about patron changes.
+Watch a YouTube video about patron changes.
 
-  .. only:: html
+.. only:: html
 
-    .. raw:: html
+  .. raw:: html
 
-        <div style="position:relative;padding-top:50%;">
-          <iframe src="https://www.youtube.com/embed/OezQwxAUYzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-        </div>
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/OezQwxAUYzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
 
-  .. only:: latex
+.. only:: latex
 
-     https://youtu.be/OezQwxAUYzU
+   https://youtu.be/OezQwxAUYzU
 
-  -----
+-----
