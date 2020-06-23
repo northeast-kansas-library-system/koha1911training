@@ -120,6 +120,28 @@ B. Add more choices to the resolution drop-down
 C. Add the ability to turn off the feature for some staff accounts (i.e. NEKLSCIRC can't use the feature but NEKLSTECH and NEKLSDIRECTOR can)
 
 
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/EipKb5ZGu-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/EipKb5ZGu-U
+
+-----
+
+
 .. Question - can a CR item be marked as lost -
 
 .. Question - pay fines for guarantees on staff too.
