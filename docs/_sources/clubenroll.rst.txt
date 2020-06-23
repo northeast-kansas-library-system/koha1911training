@@ -77,7 +77,7 @@ Watch a YouTube video about patron changes.
   .. raw:: html
 
       <div style="position:relative;padding-top:50%;">
-        <iframe src="https://youtu.be/SO6ZKHs_ILo" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+        <iframe src="https://www.youtube.com/embed/SO6ZKHs_ILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
 .. only:: latex
