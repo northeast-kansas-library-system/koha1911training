@@ -135,3 +135,25 @@ Staff can now edit purchase suggestions
 This has already been fixed on our live system, so no before picture is now possible
 
   .. image:: /images/holdchanges.1340.png
+
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/heegYcpVatU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/heegYcpVatU
+
+-----
