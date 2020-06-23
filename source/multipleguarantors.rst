@@ -81,3 +81,26 @@ C. You can no longer add a non-cardholder as a guarantor.  This is also somethin
   .. image:: /images/multipleguarantors.010c.png
 
 D. The ability to add multiple guarantors to a patron account involved major changes to the database.  Because of this, all of the reports regarding guarantors will be broken after the upgrade and will need to be rewritten.
+
+
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/gU5jpl_lM0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/gU5jpl_lM0c
+
+-----
