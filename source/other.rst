@@ -78,3 +78,25 @@ Attempting to delete a patron with reqeusts causes a warning message
 It has been possible in the past to delete a patron that had unfilled requests.  Staff will now see a warning when they attempt to do this.
 
   .. image:: /images/other.0070.png
+
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/YDuZ-ZaJCKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/YDuZ-ZaJCKk
+
+-----
