@@ -73,6 +73,7 @@ Initiating a club request from the patron clubs tool
 
   .. image:: /images/clubrequests.170.png
 
+
 -----
 
 Video on this topic:
