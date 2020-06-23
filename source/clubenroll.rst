@@ -64,3 +64,24 @@ Self-enrollment via the OPAC
 7. The patron will now see the club they just joined in their list of clubs they are currently enrolled in
 
   .. image:: /images/clubenroll.170.png
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about patron changes.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://youtu.be/SO6ZKHs_ILo" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/SO6ZKHs_ILo
+
+-----

@@ -66,3 +66,24 @@ Creating a club
   .. image:: /images/createclub.060.png
 
 Now that the club has been created, you can add members to the club.
+
+-----
+
+Video on this topic:
+--------------------
+
+Watch a YouTube video about creating clubs.
+
+.. only:: html
+
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://youtu.be/6sCVRz0U7Dc" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/6sCVRz0U7Dc
+
+-----
